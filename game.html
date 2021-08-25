@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cap 12 - Que comecem os Jogos</title>
+    <link rel="stylesheet" href="./styles/styles.css"/>
+    <script type="text/javascript" src="./javascript/jquery-3.6.0.slim.min.js"></script>
+    <script type="text/javascript" src="javascript/Constants_Variables.js"></script>
+    <script type="text/javascript" src="./javascript/HelperMethods.js"></script>
+    <script type="text/javascript" src="./javascript/GameEngine.js"></script>
+    <script type="text/javascript" src="./javascript/Entities.js"></script>
+    <script type="text/javascript" src="./javascript/main.js"></script>
+</head>
+<body>
+<div id="body_div">
+    <H2>Meteors</H2>
+    <div id="canvas_div">
+        <canvas id="game_canvas"></canvas>
+    </div>
+    <button id="start_game">START</button>
+    <div id="high_score_div">
+        <div id="high_score_controls">
+            <label for="high_score_input">Name:</label><input type="text" id="high_score_input">
+            <label for="high_score_value">Value:</label><input disabled type="text" id="high_score_value">
+            <button id="set_high_score">Save</button>
+        </div>
+        <H3>High Scores</H3>
+        <table>
+            <thead>
+            <tr id="high_score_head">
+                <th>Position</th>
+                <th>Player</th>
+                <th>Score</th>
+            </tr>
+            </thead>
+            <tbody id="high_score">
+
+            </tbody>
+        </table>
+    </div>
+
+</div>
+</body>
+</html>

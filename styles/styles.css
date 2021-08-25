@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #566963;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+H2 {
+    margin: 10px auto 10px auto;
+    font-size: 50px;
+    font-family: Verdana, serif;
+    color: #9a9a9a;
+    text-shadow: 1px 3px 0 #2b2b2b, 1px 5px 5px #000000;;
+}
+
+#body_div {
+    width: 1024px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#canvas_div {
+    width: 800px;
+    height: auto;
+    padding: 10px;
+    border: 7px ridge rgba(118, 141, 135, 0.79);
+    box-shadow: 0 10px 21px 4px rgba(0, 0, 0, 0.65);
+    border-radius: 5px;
+    margin: auto;
+}
+
+#game_canvas {
+    height: 400px;
+    width: 800px;
+    background-color: black;
+    margin: auto;
+}
+
+#start_game {
+    margin: 20px auto 10px auto;
+    width: 800px;
+    box-shadow: inset 0px 1px 3px 0px #91b8b3;
+    background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+    background-color: #768d87;
+    border-radius: 5px;
+    border: 1px solid #566963;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Verdana, serif;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 11px 23px;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #2b665e;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+    background-color: #6c7c7c;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+label {
+    margin: 10px auto 10px auto;
+    font-size: 20px;
+    font-family: Verdana, serif;
+    color: #323232;
+}
+
+#set_high_score {
+    margin: 20px auto 10px auto;
+    width: 400px;
+    box-shadow: inset 0 1px 3px 0 #91b8b3;
+    background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+    background-color: #768d87;
+    border-radius: 5px;
+    border: 1px solid #566963;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Verdana, serif;
+    font-size: 20px;
+    padding: 11px 23px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 #2b665e;
+}
+
+#high_score_controls {
+    width: 50%;
+    margin: auto;
+}
+
+H3 {
+    margin: 10px auto 10px auto;
+    font-size: 30px;
+    font-family: Verdana, serif;
+    color: #9a9a9a;
+    text-shadow: 1px 3px 0 #2b2b2b, 1px 5px 5px #000000;
+}
+
+table {
+    padding: 10px;
+    width: 600px;
+    border: 7px ridge rgba(118, 141, 135, 0.79);
+    border-radius: 5px;
+    margin: auto;
+    font-size: 20px;
+    font-family: Verdana, serif;
+    color: #bfbfbf;
+    text-align: center;
+    justify-content: center;
+}
+
+#high_score_head {
+    border-bottom: 10px solid #73af00;
+    padding: 50px;
+    margin: 50px;
+}
+
+th {
+    width: 33%;
+}
